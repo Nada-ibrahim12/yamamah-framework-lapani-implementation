@@ -1,0 +1,10 @@
+{
+  "template": "home",
+  "slots": {
+    "page-title": "title",
+    "nav": "[data-y='nav']",
+    "header": "[data-y='header']",
+    "main": "[data-y='main']",
+    "footer": "[data-y='footer']"
+  }
+}

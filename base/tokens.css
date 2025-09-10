@@ -1,0 +1,92 @@
+:root {
+  /* Colors */
+  --y-color-primary: #be8647;
+  --y-color-secondary: #fcd2a3;
+  --y-color-accent: #d9b083;
+  --y-color-dark: #7a5230;
+  --y-color-light: #fff8f0;
+  --y-color-text-dark: #3a2c1c;
+  --y-color-text-light: #ffffff;
+  --y-color-on-primary: #ffffff;
+  --y-color-btn: #c3282c;
+  --y-color-bg: #ffffff;
+
+  /* Spacing */
+  --y-space-0: 0;
+  --y-space-2: 2px;
+  --y-space-4: 4px;
+  --y-space-6: 6px;
+  --y-space-8: 8px;
+  --y-space-10: 10px;
+  --y-space-12: 12px;
+  --y-space-14: 14px;
+  --y-space-16: 16px;
+  --y-space-20: 20px;
+  --y-space-24: 24px;
+  --y-space-32: 32px;
+
+  /* Border Radius */
+  --y-radius-0: 0;
+  --y-radius-2: 2px;
+  --y-radius-4: 4px;
+  --y-radius-8: 8px;
+  --y-radius-12: 12px;
+  --y-radius-16: 16px;
+  --y-radius-20: 20px;
+  --y-radius-24: 24px;
+  --y-radius-32: 32px;
+  --y-radius-50: 50%;
+
+  /* Font Sizes */
+  --y-font-size-sm: 14px;
+  --y-font-size-base: 16px;
+  --y-font-size-lg: 21px;
+  --y-font-size-xl: 24px;
+  --y-font-size-2xl: 30px;
+  --y-font-size-3xl: 36px;
+  --y-font-size-4xl: 48px;
+  --y-font-size-5xl: 60px;
+
+  /* Font Weights */
+  --y-fw-normal: 400;
+  --y-fw-medium: 500;
+  --y-fw-bold: 700;
+  --y-fw-extrabold: 800;
+  --y-fw-black: 900;
+
+  /* Font Family */
+  --y-font-family: "Cairo", sans-serif;
+
+  /* Line Heights */
+  --y-line-height-tight: 1.25;
+  --y-line-height-base: 1.5;
+  --y-line-height-relaxed: 1.75;
+
+  /* Shadows */
+  --y-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --y-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --y-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  /* Transitions */
+  --y-transition-fast: 0.15s ease-in-out;
+  --y-transition-base: 0.3s ease-in-out;
+  --y-transition-slow: 0.5s ease-in-out;
+
+  /* Z-Index */
+  --y-zindex-dropdown: 1000;
+  --y-zindex-sticky: 1020;
+  --y-zindex-fixed: 1030;
+  --y-zindex-modal-backdrop: 1040;
+  --y-zindex-modal: 1050;
+  --y-zindex-popover: 1060;
+  --y-zindex-tooltip: 1070;
+  --y-zindex-toast: 1080;
+  --y-zindex-max: 1090;
+  /* Breakpoints */
+  --y-breakpoint-sm: 576px;
+  --y-breakpoint-md: 768px;
+  --y-breakpoint-lg: 992px;
+  --y-breakpoint-xl: 1200px;
+  --y-breakpoint-xxl: 1400px;
+}

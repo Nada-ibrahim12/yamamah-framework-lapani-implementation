@@ -1,0 +1,35 @@
+.y-t-cursor-pointer {
+  cursor: pointer;
+}
+.y-t-text-decoration-none {
+  text-decoration: none;
+}
+.y-t-list-style-none {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.y-t-font-bold {
+  font-weight: bold;
+}
+.y-t-font-main {
+  font-family: var(--y-font-family);
+}
+.y-t-font-size-sm {
+  font-size: var(--y-font-size-sm);
+}
+.y-t-font-size-base {
+  font-size: var(--y-font-size-base);
+}
+.y-t-font-size-lg {
+  font-size: var(--y-font-size-lg);
+}
+.y-t-color-primary {
+  color: var(--y-color-primary);
+}
+.y-t-color-accent {
+  color: var(--y-color-accent);
+}
+.y-t-color-on-primary {
+  color: var(--y-color-on-primary);
+}
