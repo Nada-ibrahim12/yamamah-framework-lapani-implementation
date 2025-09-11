@@ -1,0 +1,34 @@
+.title {
+    color: var(--y-color-btn);
+}
+.details p {
+  color: var(--y-color-primary);
+}
+.image-container {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+.image-container .rectangle {
+  width: 250px;
+  height: 250px;
+  border: 20px solid var(--y-color-accent);
+  background: var(--y-color-white);
+  transform: rotate(-30.83deg);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.image-container .rectangle2 {
+  width: 170px;
+  height: 170px;
+  background: var(--y-color-accent);
+  transform: rotate(-30.83deg);
+  top: 40px;
+  left: 40px;
+  z-index: 1;
+}
+img.who-img {
+  left: -110px;
+}
+

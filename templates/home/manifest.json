@@ -1,10 +1,12 @@
 {
   "template": "home",
   "slots": {
-    "page-title": "title",
-    "nav": "[data-y='nav']",
+    "navbar": "[data-y='navbar']",
     "header": "[data-y='header']",
-    "main": "[data-y='main']",
+    "about": "[data-y='about']",
+    "products": "[data-y='products']",
+    "advertisement": "[data-y='advertisement']",
+    "menu": "[data-y='menu']",
     "footer": "[data-y='footer']"
   }
 }

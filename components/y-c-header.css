@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.abs {
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    rgba(5, 4, 4, 0.66) -1.6%,
+    rgba(5, 4, 4, 0.66) 21.95%,
+    rgba(5, 4, 4, 0.4224) 54.56%,
+    rgba(43, 39, 39, 0) 110.07%
+  );
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+}
+header .btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 200px;
+  color: white;
+  font-size: 1.5rem;
+  transition: background-color 0.3s;
+  background-color: var(--y-color-btn);
+  font-weight: 600;
+  width: auto;
+  height: auto;
+}

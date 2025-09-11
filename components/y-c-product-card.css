@@ -1,0 +1,49 @@
+.menu-item {
+  background: white;
+  transition: transform 0.3s;
+  width: 280px;
+  height: 400px;
+  opacity: 1;
+  border-radius: 16px;
+  padding: 26px 24px;
+  box-shadow: 0px 4px 12.4px 0px #00000040;
+  position: relative;
+}
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+.menu-item .img img {
+  width: 208px;
+  max-height: 230px;
+  object-fit: contain;
+}
+.menu-item .img {
+  height: 230px;
+  
+}
+.menu-item-content p {
+    color: var(--y-color-btn);
+}
+.menu-item .btn:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.add-btn {
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  background-color: var(--y-color-btn);
+  font-weight: 600;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 1rem;
+}
+.price-btn {
+  border: 1px solid var(--y-color-btn);
+  color: white;
+  border-radius: 25px;
+  width: auto;
+  height: auto;
+  color: var(--y-color-btn);
+}
