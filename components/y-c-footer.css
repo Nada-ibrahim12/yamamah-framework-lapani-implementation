@@ -1,0 +1,130 @@
+.footer {
+  background-color: var(--y-color-primary);
+  padding: 40px 0 10px;
+  margin-top: auto;
+  color: #fff;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.footer p:last-child {
+  margin-bottom: 0;
+}
+
+.footer h5 {
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.footer p,
+.footer a {
+  padding-bottom: 8px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover,
+.footer a:focus {
+  color: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.footer p:hover {
+  color: #f0f0f0;
+  cursor: pointer;
+}
+
+.social-icons a {
+  color: var(--y-color-primary);
+  margin: 0 4px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+  border-radius: 50%;
+  background: white;
+  padding: 8px 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer .social-icons a:hover,
+.footer .social-icons a:focus {
+  color: #fff;
+  background: #f0f0f0;
+  transform: translateY(-3px) scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer-desc {
+  max-width: 300px;
+  line-height: 1.7;
+  margin: 0;
+  text-align: justify;
+}
+
+.footer .copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.logo-container {
+  margin-bottom: 10px;
+}
+
+.footer .logo-container img {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.footer .logo-container img:hover {
+  opacity: 0.9;
+}
+
+.back-to-top {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    font-size: 0.9rem;
+    padding: 30px 0 0;
+  }
+
+  .footer-desc {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .back-to-top {
+    position: static;
+    margin-top: 15px;
+    align-self: center;
+  }
+}

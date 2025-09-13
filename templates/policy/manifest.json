@@ -1,0 +1,8 @@
+{
+  "template": "policy",
+  "slots": {
+    "navbar": "[data-y='navbar']",
+    "policy": "[data-y='policy']",
+    "footer": "[data-y='footer']"
+  }
+}

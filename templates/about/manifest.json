@@ -1,0 +1,8 @@
+{
+  "template": "about",
+  "slots": {
+    "navbar": "[data-y='navbar']",
+    "about": "[data-y='about']",
+    "footer": "[data-y='footer']"
+  }
+}

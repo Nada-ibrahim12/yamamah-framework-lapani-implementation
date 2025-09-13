@@ -1,0 +1,8 @@
+{
+  "template": "signup",
+  "slots": {
+    "navbar": "[data-y='navbar']",
+    "signup": "[data-y='signup-form']",
+    "footer": "[data-y='footer']"
+  }
+}

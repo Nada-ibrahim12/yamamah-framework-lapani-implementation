@@ -1,0 +1,29 @@
+#authForm .form-control {
+  border: none !important;
+  border-bottom: 2px solid #aaa !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  padding: 8px 4px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+#authForm .form-control:focus {
+  border-bottom-color: var(--y-color-btn) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+#authForm .form-control::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+.auth-btn {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;  
+}
+.auth-logo {
+  max-height: 200px;
+}
+

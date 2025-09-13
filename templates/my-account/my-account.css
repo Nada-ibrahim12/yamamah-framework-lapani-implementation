@@ -1,0 +1,38 @@
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main[data-y="main"] {
+  flex: 1;
+}
+
+@media (min-width: 992px) {
+  main[data-y="main"] {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  [data-y="account-sidebar"] {
+    flex: 0 0 25%;
+  }
+  #account-content {
+    flex: 1;
+  }
+}
+
+/* Small and medium screens: sidebar and content stacked */
+@media (max-width: 991.98px) {
+  main[data-y="main"] {
+    display: flex;
+    flex-direction: column;
+  }
+  [data-y="account-sidebar"],
+  #account-content {
+    flex: 1 1 100%;
+  }
+}

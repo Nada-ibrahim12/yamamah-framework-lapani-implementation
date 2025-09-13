@@ -9,6 +9,11 @@
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fffaf4;
 }
 
 body {
@@ -18,6 +23,17 @@ body {
   line-height: var(--y-line-height-base);
   color: var(--y-color-text);
   background-color: var(--y-color-bg);
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fffaf4;
+}
+
+main {
+  width: 100%;
+  padding: 0;
+  flex-grow: 1;
 }
 
 h1,

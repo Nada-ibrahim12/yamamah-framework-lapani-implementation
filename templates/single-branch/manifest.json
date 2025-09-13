@@ -1,0 +1,8 @@
+{
+  "template": "single-branch",
+  "slots": {
+    "navbar": "[data-y='navbar']",
+    "menu": "[data-y='menu']",
+    "footer": "[data-y='footer']"
+  }
+}

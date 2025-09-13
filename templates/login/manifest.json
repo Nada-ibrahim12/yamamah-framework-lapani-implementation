@@ -1,0 +1,8 @@
+{
+  "template": "login",
+  "slots": {
+    "navbar": "[data-y='navbar']",
+    "login": "[data-y='login-form']",
+    "footer": "[data-y='footer']"
+  }
+}

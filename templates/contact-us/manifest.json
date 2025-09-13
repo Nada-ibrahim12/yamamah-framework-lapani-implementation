@@ -1,0 +1,8 @@
+{
+  "template": "contactus",
+  "slots": {
+    "navbar": "[data-y='navbar']",
+    "contactus": "[data-y='contactus-form']",
+    "footer": "[data-y='footer']"
+  }
+}
