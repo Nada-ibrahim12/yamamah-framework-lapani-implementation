@@ -1,0 +1,8 @@
+{
+  "template": "reset-password",
+  "slots": {
+    "navbar": "[data-y='navbar']",
+    "reset-password": "[data-y='reset-password']",
+    "footer": "[data-y='footer']"
+  }
+}
