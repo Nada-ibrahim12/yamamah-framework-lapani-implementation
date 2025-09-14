@@ -1,5 +1,8 @@
 .y-c-navbar {
   background: var(--y-color-primary);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .y-c-navbar__logo-img {

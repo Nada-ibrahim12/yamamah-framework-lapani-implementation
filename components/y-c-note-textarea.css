@@ -1,0 +1,22 @@
+.custom-box {
+  padding: 15px 20px;
+  border-radius: 1rem;
+  border: 2px solid #333;
+  background-color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+  resize: vertical;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.custom-box:focus {
+  border-color: #be8647;
+  box-shadow: 0 0 10px rgba(190, 134, 71, 0.3);
+  outline: none;
+}
+
+.custom-box::placeholder {
+  color: #999;
+  font-style: italic;
+}

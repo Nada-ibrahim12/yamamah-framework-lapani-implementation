@@ -1,0 +1,11 @@
+{
+  "template": "cart",
+  "slots": {
+    "navbar": "[data-y='navbar']",
+    "paymentForm": "[data-y='payment-form']",
+    "cartSummary": "[data-y='cart-summary']",
+    "cartProductCard": "[data-y='cart-product-card']",
+    "checkoutForm": "[data-y='checkout-form']",
+    "footer": "[data-y='footer']"
+  }
+}

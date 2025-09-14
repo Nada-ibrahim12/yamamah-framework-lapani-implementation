@@ -1,0 +1,10 @@
+{
+    template: "cart",
+    slots: {
+        navbar: "[data-y='navbar']",
+        cartTable: "[data-y='cart-table']",
+        noteTextarea: "[data-y='note-textarea']",
+        cartSummary: "[data-y='cart-summary']",
+        footer: "[data-y='footer']"
+    }
+}

@@ -1,0 +1,18 @@
+.custom-box {
+  background: #fffaf4;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.total {
+  font-weight: bold;
+}
+
+.totals h5 {
+  font-size: 18px;
+  color: #302d2d;
+}
+
+.tax h5 {
+  font-weight: 600;
+}

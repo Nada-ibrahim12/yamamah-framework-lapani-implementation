@@ -21,6 +21,9 @@
 .y-t-fs-sm {
   font-size: var(--y-font-size-sm);
 }
+.y-t-fs-md {
+  font-size: var(--y-font-size);
+}
 .y-t-fs-base {
   font-size: var(--y-font-size-base);
 }
