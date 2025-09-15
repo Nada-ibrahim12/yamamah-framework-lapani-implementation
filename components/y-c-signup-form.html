@@ -1,6 +1,6 @@
-<div class="y-u-d-flex y-u-py-4">
+<div class="y-u-d-flex y-u-justify-center y-u-py-4 y-u-mb-lg-10">
   <div class="y-u-row y-u-justify-center y-u-w-100">
-    <div class="y-u-col-md-10">
+    <div class="y-u-col-md-10 y-u-col-sm-11">
       <div class="y-u-p-3 y-u-p-md-4">
         <div
           class="y-u-d-flex y-u-flex-column y-u-align-items-center y-u-justify-center y-u-py-5 y-u-py-md-4"
@@ -15,42 +15,48 @@
           </div>
         </div>
 
-        <div class="y-u-row y-u-d-flex y-u-justify-center y-u-g-5 y-u-g-md-4">
+        <div
+          class="y-u-row y-u-d-flex y-u-justify-center y-u-g-4 y-u-g-md-4 y-u-col-12"
+        >
           <div class="y-u-col-lg-6 y-u-col-md-10 y-u-col-sm-12">
-            <form action="Login" id="authForm" method="POST">
-              <div class="y-u-mb-7 y-u-d-flex y-u-flex-column">
-                <label for="email" class="form-label y-t-fw-semibold y-t-fs-lg"
+            <form action="SignUp" id="authForm" method="POST" class="y-u-d-flex y-u-flex-column y-u-gap-3">
+              <div class="y-u-mb-5 y-u-d-flex y-u-flex-column y-u-col-sm-12">
+                <label for="email" class="form-label y-t-fw-semibold"
                   >الايميل</label
                 >
                 <input
                   type="email"
-                  class="form-control y-t-border-secondary"
+                  class="form-control y-t-border-secondary y-u-py-2"
                   id="email"
                   placeholder="example@example.com"
                   required
                 />
               </div>
 
-              <div class="y-u-mb-7 y-u-d-flex y-u-flex-column">
-                <label for="password" class="form-label y-t-fw-semibold y-t-fs-lg"
+              <div class="y-u-mb-5 y-u-d-flex y-u-flex-column">
+                <label
+                  for="password"
+                  class="form-label y-t-fw-semibold"
                   >كلمة المرور</label
                 >
                 <input
                   type="password"
-                  class="form-control y-t-border-secondary"
+                  class="form-control y-t-border-secondary y-u-py-2"
                   id="password"
                   placeholder="********"
                   required
                 />
               </div>
 
-              <div class="y-u-mb-7 y-u-d-flex y-u-flex-column">
-                <label for="confirmpassword" class="form-label y-t-fw-semibold y-t-fs-lg"
+              <div class="y-u-mb-5 y-u-d-flex y-u-flex-column">
+                <label
+                  for="confirmpassword"
+                  class="form-label y-t-fw-semibold"
                   >تأكيد كلمة المرور</label
                 >
                 <input
                   type="password"
-                  class="form-control y-t-border-secondary"
+                  class="form-control y-t-border-secondary y-u-py-2"
                   id="confirmpassword"
                   placeholder="********"
                   required
@@ -58,7 +64,7 @@
               </div>
 
               <div
-                class="y-u-d-flex y-u-justify-between y-u-align-items-center y-u-mb-3"
+                class="y-u-d-flex y-u-justify-between y-u-align-items-center"
               >
                 <div
                   class="y-u-d-flex y-u-justify-between y-u-align-items-center"
@@ -76,7 +82,7 @@
                 </div>
               </div>
 
-              <div class="y-u-d-grid y-u-my-5">
+              <div class="y-u-d-grid y-u-my-4">
                 <button
                   type="submit"
                   class="y-t-border-2 y-u-py-2 y-t-fs-xl y-t-fw-semibold auth-btn"
@@ -84,9 +90,9 @@
                   تسجيل حساب جديد
                 </button>
               </div>
-              <div class="y-u-mt-4 y-u-pt-2">
+              <div class="y-u-pt-2 y-u-text-center">
                 <p class="y-u-mb-0 y-t-fs-sm">
-                   لديك حساب بالفعل؟
+                  لديك حساب بالفعل؟
                   <a
                     href="/login.html"
                     class="y-t-text-decoration-none y-t-fw-bold"

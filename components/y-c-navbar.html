@@ -1,72 +1,41 @@
-<nav class="y-c-navbar y-u-navbar y-u-d-flex y-u-justify-content-center">
-  <div class="y-u-container-fluid y-u-d-flex y-u-justify-center y-u-align-items-center y-u-p-4">
+<nav class="y-c-navbar y-u-navbar">
+  <div class="y-u-container-fluid y-u-d-flex y-u-row y-u-align-items-center y-u-justify-around y-u-p-4">
     
-    <!-- Logo -->
-    <a class="y-c-navbar__logo y-u-d-flex y-u-align-content-center y-u-justify-center y-u-col-3"
-       data-y="logo" href="#">
+    <a class="y-c-navbar__logo y-u-d-flex y-u-align-items-center y-u-col-lg-3 y-u-justify-center" href="#">
       <img src="../../assets/logo.png" class="y-c-navbar__logo-img" alt="Logo" />
     </a>
 
-    <!-- Toggler (mobile only) -->
-    <button class="y-c-navbar__toggler y-u-navbar-toggler y-u-d-lg-none" 
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarContent"
-            aria-controls="navbarContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
+    <!-- Toggler -->
+    <button
+      class="y-c-navbar__toggler y-u-navbar-toggler y-u-d-lg-none"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarContent"
+      aria-controls="navbarContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <span class="y-u-navbar-toggler-icon"></span>
     </button>
 
-    <!-- Collapsible Content -->
-    <div class="collapse y-c-navbar__collapse y-u-navbar-collapse y-u-col-9 y-u-d-lg-flex y-u-align-items-center"
-         id="navbarContent">
-      
-      <!-- Nav Links -->
-      <ul class="y-c-navbar__nav y-u-navbar-nav y-u-d-flex y-u-flex-row y-u-justify-center y-u-align-content-center y-u-mb-2 y-u-mb-lg-0 y-u-col-7">
-        <li class="y-c-navbar__item y-u-nav-item y-u-col-lg-4 y-u-col-sm-12">
-          <a class="y-c-navbar__link y-u-nav-link y-u-nav-link-active y-t-text-white y-t-font-bold"
-             data-y="home-link" href="/home.html">الصفحة الرئيسية</a>
-        </li>
+    <div class="collapse y-c-navbar__collapse y-u-navbar-collapse y-u-d-lg-flex y-u-justify-between y-u-align-items-center y-u-col-lg-9" id="navbarContent">
 
-        <li class="y-c-navbar__item y-u-nav-item y-u-dropdown y-u-col-lg-3 y-u-col-sm-12">
-          <a class="y-c-navbar__link y-u-nav-link y-u-dropdown-toggle y-t-text-white y-t-font-bold y-u-px-3 y-u-py-2 y-u-border-r-4"
-             href="#" id="branchesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            فروعنا
-          </a>
-          <ul class="y-c-navbar__dropdown-menu y-u-dropdown-menu y-u-dropdown-menu-end y-u-shadow y-u-border-r-12"
-              aria-labelledby="branchesDropdown">
-            <li>
-              <a class="y-c-navbar__dropdown-item y-u-dropdown-item y-u-py-2"
-                 data-y="branch-alsafa" href="single-branch.html?branch=alsafa">الصفا</a>
-            </li>
-            <li>
-              <a class="y-c-navbar__dropdown-item y-u-dropdown-item y-u-py-2"
-                 data-y="branch-alzahraa" href="single-branch.html?branch=alzahraa">الزهراء</a>
-            </li>
+      <ul class="y-c-navbar__nav y-u-navbar-nav y-u-d-flex y-u-col-lg-6 y-u-flex-lg-row y-u-gap-4 y-u-align-items-center y-u-justify-around y-u-mb-2 y-u-mb-lg-0">
+        <li><a class="y-c-navbar__link y-u-nav-link y-t-text-white y-t-font-bold" href="/home.html">الصفحة الرئيسية</a></li>
+        <li class="y-u-dropdown">
+          <a class="y-c-navbar__link y-u-nav-link y-u-dropdown-toggle y-t-text-white y-t-font-bold" href="#" id="branchesDropdown" role="button" data-bs-toggle="dropdown">فروعنا</a>
+          <ul class="y-c-navbar__dropdown-menu y-u-dropdown-menu y-u-shadow y-u-border-r-12" aria-labelledby="branchesDropdown">
+            <li><a class="y-c-navbar__dropdown-item y-u-dropdown-item y-u-py-2" href="single-branch.html?branch=alsafa">الصفا</a></li>
+            <li><a class="y-c-navbar__dropdown-item y-u-dropdown-item y-u-py-2" href="single-branch.html?branch=alzahraa">الزهراء</a></li>
           </ul>
         </li>
-
-        <li class="y-c-navbar__item y-u-nav-item y-t-font-bold y-u-col-lg-4 y-u-col-sm-12">
-          <a class="y-c-navbar__link y-u-nav-link"
-             data-y="contact-link" href="/contact-us.html">تواصل معنا</a>
-        </li>
+        <li><a class="y-c-navbar__link y-u-nav-link" href="/contact-us.html">تواصل معنا</a></li>
       </ul>
 
-      <!-- Phones (wrapped in UL for valid HTML) -->
-      <ul class="y-c-navbar__phones y-u-d-flex y-u-justify-content-between y-u-col-lg-5 y-u-col-sm-6 y-t-list-style-none">
-        <li class="y-c-navbar__phone-item y-u-nav-item">
-          <span class="y-c-navbar__phone-link y-u-nav-link y-t-text-white y-t-font-main y-u-py-1" data-y="phone-1">
-            0126780275 <i class="fa-solid fa-tty y-u-me-3"></i>
-          </span>
-        </li>
-        <li class="y-c-navbar__phone-item y-u-nav-item">
-          <span class="y-c-navbar__phone-link y-u-nav-link y-t-text-white y-t-font-main y-u-py-1" data-y="phone-2">
-            0558842828 <i class="fas fa-phone y-u-me-3"></i>
-          </span>
-        </li>
+      <ul class="y-c-navbar__phones y-u-d-flex y-u-col-lg-5 y-u-flex-column y-u-flex-lg-row y-u-gap-3 y-u-align-items-lg-center y-u-justify-around y-t-list-style-none">
+        <li><span class="y-c-navbar__phone-link y-t-text-white">0126780275 <i class="fa-solid fa-tty y-u-me-3"></i></span></li>
+        <li><span class="y-c-navbar__phone-link y-t-text-white">0558842828 <i class="fas fa-phone y-u-me-3"></i></span></li>
       </ul>
-
     </div>
   </div>
 </nav>

@@ -2,7 +2,10 @@
 <html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=0.7, maximum-scale=1.0, user-scalable=no"
+    />
     <title data-y="page-title">الرئيسية</title>
 
     <link
@@ -25,22 +28,16 @@
     <link rel="stylesheet" href="../../components/y-c-cart-table.css" />
     <link rel="stylesheet" href="../../components/y-c-cart-summary.css" />
     <link rel="stylesheet" href="../../components/y-c-note-textarea.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    
   </head>
   <body>
     <div data-y="nav"></div>
 
-    <main
-      data-y="main"
-      class="y-u-my-5 y-u-container-fluid y-u-d-flex y-u-flex-column y-u-justify-center"
-    >
-      <div data-y="cart-table"></div>
+    <main data-y="main" class="y-u-my-5 y-u-container-fluid">
+      <div data-y="cart-table" class="y-u-mb-5"></div>
       <div class="y-u-row y-u-col-12 y-u-d-flex y-u-justify-around y-u-my-8">
-        <div data-y="note-textarea" class="y-u-col-lg-4"></div>
-        <div data-y="cart-summary" class="y-u-col-lg-6"></div>
+        <div data-y="note-textarea" class="y-u-col-lg-4 y-u-col-sm-10"></div>
+        <div data-y="cart-summary" class="y-u-col-lg-6 y-u-col-sm-10 y-u-my-sm-7"></div>
       </div>
     </main>
 

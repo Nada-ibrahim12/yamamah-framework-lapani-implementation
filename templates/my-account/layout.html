@@ -2,7 +2,10 @@
 <html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=0.7, maximum-scale=1.0, user-scalable=no"
+    />
     <title data-y="page-title">الرئيسية</title>
 
     <link
@@ -25,15 +28,19 @@
     <link rel="stylesheet" href="../../components/y-c-account-sidebar.css" />
     <link rel="stylesheet" href="../../components/y-c-orders.css" />
     <link rel="stylesheet" href="../../components/y-c-address.css" />
-    
+    <link rel="stylesheet" href="../../components/y-c-account-details.css" />
   </head>
   <body>
     <div data-y="nav"></div>
 
-
-    <main data-y="main" class="y-u-my-5 y-u-d-flex y-u-flex-lg-row y-u-flex-sm-column">
-      <div data-y="account-sidebar" class=" y-u-col-lg-2 y-u-col-sm-8"></div>
-      <div id="account-content" class="y-u-d-flex y-u-col-lg-9 y-u-col-sm-12"></div>
+    <main data-y="main" class="y-u-my-5">
+      <div class="y-u-d-flex y-u-flex-lg-row y-u-flex-sm-column y-u-justify-around y-u-w-100">
+        <div data-y="account-sidebar" class="y-u-col-lg-3 y-u-col-sm-9"></div>
+        <div
+          id="account-content"
+          class="y-u-d-flex y-u-col-lg-8 y-u-col-sm-12 y-u-justify-center y-u-align-content-center y-u-align-items-center"
+        ></div>
+      </div>
     </main>
 
     <footer data-y="footer"></footer>
@@ -43,6 +50,5 @@
     <script src="../../js/y-navbar.js"></script>
     <script src="../../js/y-footer.js"></script>
     <script src="../../js/y-account-sidebar.js"></script>
-
   </body>
 </html>

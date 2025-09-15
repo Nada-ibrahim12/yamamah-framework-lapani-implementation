@@ -6,6 +6,4 @@
 .menu a:hover {
   text-decoration: none;
   cursor: pointer;
-  color: var(--btn-color);
 }
-url(y-c-product-card.css)

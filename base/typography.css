@@ -45,6 +45,12 @@
   font-weight: var(--y-fw-bold);
   color: var(--y-color-btn);
 }
+
+@media (max-width: 820px) {
+  .y-t-fs-titles {
+    font-size: var(--y-font-size-4xl);
+  }
+}
 .y-t-fs-5xl {
   font-size: var(--y-font-size-5xl);
 }

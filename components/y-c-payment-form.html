@@ -1,65 +1,88 @@
-<div class="y-u-col-lg-10 y-u-col-md-12 y-u-px-5">
+<div
+  class="y-u-col-lg-11 y-u-col-sm-11 y-u-d-flex y-u-flex-column y-u-justify-around y-u-px-5 y-u-pb-5"
+>
   <div class="y-u-mb-10">
-    <h4 class="y-u-mb-5 y-t-fs-xl y-u-mb-17">معلومات التوصيل</h4>
-    <p class="y-t-text-muted y-t-fs-md y-u-mb-3">
+    <h4 class="y-u-mb-8">معلومات التوصيل</h4>
+    <p class="y-t-text-muted y-u-mb-5">
       سوف نستخدم هذا البريد الإلكتروني لإرسال التفاصيل والتحديثات إليك حول طلبك.
     </p>
-    <div class="custom-box y-u-col-10">*******@gmail.com</div>
+    <div class="custom-box y-u-col-11 y-u-px-3">*******@gmail.com</div>
   </div>
 
   <div class="y-u-col-12">
-    <h4 class="y-u-mb-5 y-t-fs-xl">عنوان الدفع</h4>
-    <p class="y-t-text-muted y-t-fs-md y-u-mb-3">
+    <h4 class="y-u-mb-8">عنوان الدفع</h4>
+    <p class="y-t-text-muted y-u-mb-5">
       أدخل عنوان الفاتورة الذي يتطابق مع طريقة الدفع الخاصة بك.
     </p>
 
-    <div class="y-u-row y-u-g-3 y-u-mb-5">
-      <div class="y-u-col-md-6 y-u-mb-sm-4">
-        <input type="text" class="custom-box" placeholder="الإسم الأول" />
-      </div>
-      <div class="y-u-col-md-6 y-u-mb-sm-4">
+    <div
+      class="y-u-row y-u-d-flex y-u-align-content-center y-u-justify-around y-u-mb-4"
+    >
+      <div class="y-u-col-md-5 y-u-col-12">
         <input
           type="text"
-          class="custom-box y-u-mx-5"
+          class="custom-box y-u-w-100"
+          placeholder="الإسم الأول"
+        />
+      </div>
+      <div class="y-u-col-md-5 y-u-col-12">
+        <input
+          type="text"
+          class="custom-box y-u-w-100"
           placeholder="الإسم الثاني"
         />
       </div>
     </div>
 
-    <input
-      type="text"
-      class="custom-box y-u-col-10 y-u-mb-5 y-u-mb-sm-4"
-      placeholder="عنوان الشارع / رقم المنزل"
-    />
+    <div class="y-u-mb-4 y-u-col-12">
+      <input
+        type="text"
+        class="custom-box y-u-w-100"
+        placeholder="عنوان الشارع / رقم المنزل"
+      />
+    </div>
 
-    <div class="y-u-mb-5" id="additionalAddressFields"></div>
+    <div class="y-u-d-flex y-u-justify-center y-u-flex-column">
+      <div class="y-u-mb-4" id="additionalAddressFields"></div>
+      <button
+        type="button"
+        class="y-u-btn y-u-btn-outline-dark y-t-fs-4 y-u-mb-4"
+        onclick="toggleAddressField()"
+        id="toggleBtn"
+      >
+        + اضافة شقة , الجناح , الوحدة , الخ
+      </button>
+    </div>
 
-    <button
-      type="button"
-      class="y-u-btn y-u-btn-outline-dark y-t-fs-4 y-u-mt-4 y-u-mb-lg-5 y-u-m-sm-5"
-      onclick="toggleAddressField()"
-      id="toggleBtn"
+    <div
+      class="y-u-row y-u-d-flex y-u-align-content-center y-u-justify-around y-u-mb-4"
     >
-      + اضافة شقة , الجناح , الوحدة , الخ
-    </button>
-
-    <div class="y-u-row y-u-g-3 y-u-mb-5">
-      <div class="y-u-col-md-6 y-u-mb-sm-4">
-        <input type="text" class="custom-box" placeholder="المدينة" />
+      <div class="y-u-col-md-5 y-u-col-12">
+        <input type="text" class="custom-box y-u-w-100" placeholder="المدينة" />
       </div>
-      <div class="y-u-col-md-6 y-u-mb-sm-4">
-        <input type="text" class="custom-box y-u-mx-5" placeholder="المحافظة" />
+      <div class="y-u-col-md-5 y-u-col-12">
+        <input
+          type="text"
+          class="custom-box y-u-w-100"
+          placeholder="المحافظة"
+        />
       </div>
     </div>
 
-    <div class="y-u-row y-u-g-3">
-      <div class="y-u-col-md-6 y-u-mb-sm-4">
-        <input type="text" class="custom-box" placeholder="رقم الجوال" />
-      </div>
-      <div class="y-u-col-md-6 y-u-mb-sm-4">
+    <div
+      class="y-u-row y-u-d-flex y-u-align-content-center y-u-justify-around y-u-mb-4"
+    >
+      <div class="y-u-col-md-5 y-u-col-12">
         <input
           type="text"
-          class="custom-box y-u-mx-5"
+          class="custom-box y-u-w-100"
+          placeholder="رقم الجوال"
+        />
+      </div>
+      <div class="y-u-col-md-5 y-u-col-12">
+        <input
+          type="text"
+          class="custom-box y-u-w-100"
           placeholder="الرمز البريدي"
         />
       </div>

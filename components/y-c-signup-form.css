@@ -22,8 +22,20 @@
   border-radius: 5px;
   width: 100%;
   height: auto;  
+  font-size: var(--y-font-size-lg);
 }
 .auth-logo {
   max-height: 200px;
 }
-
+label {
+    font-size: var(--y-font-size-lg);
+  }
+@media (max-width: 820px) {
+  label{
+    font-size: var(--y-font-size-2xl);
+    margin-bottom: 1rem;
+  }
+  #authForm .form-control, .auth-btn {
+    font-size: var(--y-font-size-xl);
+  }
+}

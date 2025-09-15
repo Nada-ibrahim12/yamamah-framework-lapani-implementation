@@ -32,3 +32,30 @@ img.who-img {
   left: -110px;
 }
 
+@media (max-width: 820px) {
+  .image-container {
+    margin-top: 50px;
+  }
+  /*.image-container .rectangle {
+    width: 300px;
+    height: 300px;
+    border: 20px solid var(--y-color-accent);
+    background: var(--y-color-white);
+    transform: rotate(-30.83deg);
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .image-container .rectangle2 {
+    width: 200px;
+    height: 200px;
+    background: var(--y-color-accent);
+    transform: rotate(-30.83deg);
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+  } */
+  img.who-img {
+    left: -150px;
+  }
+}

@@ -2,7 +2,10 @@
 <html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=0.7, maximum-scale=1.0, user-scalable=no"
+    />
     <title data-y="page-title">الرئيسية</title>
 
     <link
@@ -26,7 +29,7 @@
     <link rel="stylesheet" href="../../components/y-c-cart-summary.css" />
     <link rel="stylesheet" href="../../components/y-c-cart-product-card.css" />
     <link rel="stylesheet" href="../../components/y-c-checkout-form.css" />
-
+    <link rel="stylesheet" href="../../templates/payment/payment.css" />
   </head>
   <body>
     <div data-y="nav"></div>
@@ -35,16 +38,27 @@
       data-y="main"
       class="y-u-my-5 y-u-container-fluid y-u-d-flex y-u-flex-column y-u-justify-center"
     >
-      <div class="y-u-row y-u-container-fluid y-u-d-flex y-u-justify-center">
-        <p class="y-u-col-12 y-t-fs-titles y-u-pe-5 y-u-mb-7">الدفع</p>
-        <div data-y="payment-form" class="y-u-col-lg-7 y-u-col-md-12"></div>
+      <div
+        class="y-u-row y-u-container-fluid y-u-d-flex y-u-flex-wrap y-u-justify-center"
+      >
+        <p class="y-u-col-12 y-t-fs-titles y-u-pe-5 y-u-my-7">الدفع</p>
 
-        <div class="y-u-col-lg-5 y-u-col-md-12">
-          <div data-y="cart-product-card" class="y-u-col-lg-12 y-u-d-flex y-u-align-items-center y-u-flex-row"></div>
+        <div class="y-u-d-flex y-u-flex-wrap y-u-justify-center y-u-col-12">
+          <div data-y="payment-form" class="y-u-col-lg-7 y-u-col-sm-11"></div>
 
-          <div data-y="cart-summary" class="y-u-col-lg-12"></div>
+          <div
+            class="y-u-col-lg-5 y-u-col-sm-10 y-u-d-flex y-u-flex-column y-u-gap-3"
+            data-y="cart-section"
+          >
+            <div
+              data-y="cart-product-card"
+              class="y-u-d-flex y-u-align-items-center"
+            ></div>
+            <div data-y="cart-summary" class="y-u-col-sm-12"></div>
+          </div>
         </div>
-        <div data-y="checkout-form" class="y-u-col-lg-10 y-u-mt-10"></div>
+
+        <div data-y="checkout-form" class="y-u-col-lg-10 y-u-col-sm-11 y-u-mt-10"></div>
       </div>
     </main>
 

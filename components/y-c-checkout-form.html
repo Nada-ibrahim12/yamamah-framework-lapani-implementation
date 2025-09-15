@@ -1,125 +1,61 @@
 <div class="section y-u-mt-5">
   <div class="y-u-p-4 y-u-mb-4 custom-box">
-    <div
-      class="y-u-d-flex y-u-flex-column y-u-flex-sm-row y-u-justify-between y-u-align-items-start y-u-align-items-md-center y-u-mb-4"
-    >
-      <div
-        class="y-u-d-flex y-u-align-items-center y-u-gap-3 y-u-mb-3 y-u-mb-md-0"
-      >
-        <div
-          class="radio-selected y-t-fs-xl"
-        ></div>
-        <h4 class="y-t-fw-medium y-u-mb-0 y-t-fs-xl">
-          الدفع عبر الإنترنت
-        </h4>
+    <label class="payment-option y-u-d-flex y-u-align-items-center y-u-justify-between y-u-gap-3 y-u-mb-4">
+      <div class="y-u-d-flex y-u-align-items-center">
+        <input type="radio" name="payment" class="radio-input" value="online" checked />
+        <h4 class="y-t-fw-medium y-u-mb-0 y-t-fs-xl">الدفع عبر الإنترنت</h4>
       </div>
-      <div class="y-u-d-flex y-u-gap-3 y-t-fs-xl">
-        <img
-          src="/assets/Visa.png"
-          alt="visa"
-          class="y-u-img-fluid"
-          style="height: 24px"
-        />
-        <img
-          src="/assets/Payment.png"
-          alt="payment"
-          class="y-u-img-fluid"
-          style="height: 24px"
-        />
+      <div class="y-u-d-flex y-u-gap-2 y-u-align-items-center">
+        <img src="/assets/Visa.png" alt="visa" class="y-u-img-fluid" style="height: 24px;" />
+        <img src="/assets/Payment.png" alt="payment" class="y-u-img-fluid" style="height: 24px;" />
       </div>
-    </div>
-    <p
-      class="y-t-text-muted y-u-text-right y-u-mb-6"
-    >
+    </label>
+
+    <p class="y-t-text-muted y-u-text-right y-u-mb-5">
       ادفع ببطاقتك الإئتمانية.
     </p>
 
-    <div class="form-group">
-      <input
-        type="text"
-        class="form-control custom-box y-u-mb-5"
-        placeholder="اسم حامل البطاقة"
-      />
-      <input
-        type="text"
-        class="form-control custom-box y-u-mb-5"
-        placeholder="رقم البطاقة"
-      />
-      <div class="y-u-row y-u-d-flex y-u-justify-around">
-        <div class="y-u-col-md-5">
-          <input
-            type="text"
-            class="form-control custom-box"
-            placeholder="تاريخ الانتهاء"
-          />
+    <div class="form-group y-u-mb-4 payment-fields">
+      <input type="text" class="form-control custom-box y-u-mb-3" placeholder="اسم حامل البطاقة" />
+      <input type="text" class="form-control custom-box y-u-mb-3" placeholder="رقم البطاقة" />
+      <div class="y-u-row y-u-d-flex y-u-justify-center y-u-gap-lg-5 y-u-gap-sm-3">
+        <div class="y-u-col-md-5 y-u-col-11">
+          <input type="text" class="form-control custom-box" placeholder="تاريخ الانتهاء" />
         </div>
-        <div class="y-u-col-md-6">
-          <input
-            type="text"
-            class="form-control custom-box"
-            placeholder="CVC"
-          />
+        <div class="y-u-col-md-6 y-u-col-11">
+          <input type="text" class="form-control custom-box" placeholder="CVC" />
         </div>
       </div>
     </div>
 
     <hr class="y-u-my-4" />
 
-    <div
-      class="y-u-d-flex y-u-flex-column y-u-flex-sm-row y-u-justify-between y-u-align-items-start y-u-align-items-md-center y-u-mb-3 y-u-pt-sm-2"
-    >
-      <div
-        class="y-u-d-flex y-u-align-items-center y-u-gap-3 y-u-mb-3 y-u-mb-md-0"
-      >
-        <div
-          class="radio-empty y-t-fs-xl"
-        ></div>
-        <h4 class="y-t-fw-medium y-u-mb-0 y-t-fs-xl">
-          الدفع عن طريق stc pay
-        </h4>
+    <label class="payment-option y-u-d-flex y-u-align-items-center y-u-justify-between y-u-gap-3 y-u-mb-3">
+      <div class="y-u-d-flex y-u-align-items-center y-u-gap-3">
+        <input type="radio" name="payment" class="radio-input" value="stc" />
+        <h4 class="y-t-fw-medium y-u-mb-0 y-t-fs-xl">الدفع عن طريق stc pay</h4>
       </div>
-      <div class= y-t-fs-xl">
-        <img
-          src="/assets/stc pay.png"
-          alt="stc pay"
-          class="y-u-img-fluid"
-          style="height: 32px"
-        />
-      </div>
-    </div>
+      <img src="/assets/stc pay.png" alt="stc pay" class="y-u-img-fluid" style="height: 32px;" />
+    </label>
   </div>
 
-  <div
-    class="note-box y-u-mb-4 y-u-p-3 y-u-rounded y-u-border"
-  >
-    <div class="y-u-d-flex y-u-align-items-center y-u-gap-3">
-      <div class="radio-empty"></div>
-      <h4
-        class="y-t-fw-medium y-u-mb-0 y-t-fs-xl note"
-      >
-        إضافة ملحوظة
-      </h4>
-    </div>
+  <div class="note-box y-u-mb-4 y-u-p-3 y-u-rounded y-u-border">
+  <div class="y-u-d-flex y-u-flex-row y-u-align-content-center y-u-align-items-center y-u-gap-3">
+    <input type="checkbox" id="note-checkbox" />
+    <h4 class="y-t-fw-medium y-u-mb-0 y-t-fs-xl note">إضافة ملحوظة</h4>
   </div>
+  <textarea id="note-text" class="form-control custom-box y-u-mt-3" placeholder="اكتب ملاحظتك هنا..." style="display: none;"></textarea>
+</div>
 
-  <p
-    class="y-u-text-right y-t-small y-t-text-muted y-u-mb-4 order-labels"
-  >
-    من خلال متابعة عملية الشراء الخاصة بك، فإنك توافق على الشروط والأحكام وسياسة
-    الخصوصية الخاصة بنا
+  <p class="y-u-text-right y-t-small y-t-text-muted y-u-mb-4">
+    من خلال متابعة عملية الشراء الخاصة بك، فإنك توافق على الشروط والأحكام وسياسة الخصوصية الخاصة بنا
   </p>
 
-  <div
-    class="y-u-d-flex y-u-flex-column y-u-flex-lg-row y-u-justify-between y-u-align-items-center y-u-gap-3"
-  >
-    <button
-      class="y-u-btn y-u-btn-outline-dark y-u-px-4 y-u-py-2 y-u-col-3 auth-btn pay-btn"
-    >
+  <div class="y-u-d-flex y-u-flex-column y-u-flex-lg-row y-u-justify-between y-u-align-items-center y-u-gap-3">
+    <button class="y-u-btn y-u-btn-outline-dark y-u-px-4 y-u-py-2 y-u-col-lg-3 auth-btn pay-btn">
       تقديم الطلب
     </button>
-    <div
-      class="y-u-d-flex y-u-align-items-center y-u-gap-2 back"
-    >
+    <div class="y-u-d-flex y-u-align-items-center y-u-gap-2 back">
       <span class="y-t-fw-medium">العودة إلى سلة المشتريات</span>
       <span class="arrow-back">&larr;</span>
     </div>

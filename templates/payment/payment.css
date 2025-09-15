@@ -1,0 +1,16 @@
+[data-y="cart-section"] { order: 2; }
+[data-y="payment-form"] { order: 1; }
+[data-y="checkout-form"] { order: 3; }
+
+/* Medium and small screens: cart first */
+@media (max-width: 991px) {
+  [data-y="cart-section"] {
+    order: 1; 
+  }
+  [data-y="payment-form"] {
+    order: 2;
+  }
+  [data-y="checkout-form"] {
+    order: 3;
+  }
+}
